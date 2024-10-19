@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif; /* Шрифт для страницы */
+    background-image: url(bg.jpg);
+	background-size: cover;
+    background-position: auto;
+    background-repeat: no-repeat;
+    margin: 0; /* Убираем отступы */
+    padding: 20px; /* Внутренние отступы */
+}
+
+.container {
+	background-color: rgba(255, 255, 255, 255, 0.2);
+	backdrop-filter: blur(55px);
+    max-width: 600px; /* Максимальная ширина контейнера */
+    margin: auto; /* Центрируем контейнер */
+    padding: 20px; /* Отступы внутри контейнера */
+    border-radius: 10px; /* Скругление углов контейнера */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Легкая тень для объема */
+}
+
+buttons {
+	display: flex; /* Используем Flexbox */
+    gap: 10px;
+}
+
+h1 {
+    color: #555; /* Цвет заголовка */
+}
+
+h2 {
+    color: #555; /* Цвет подзаголовка */
+}
+
+ul {
+    list-style-type: circle; /* Оформление списка */
+    margin-left: 10px; /* Отступ для списка */
+}
+
+label {
+    display: block; /* Блочное поведение для заголовка формы */
+    margin-top: 10px; /* Отступ сверху */
+}
+
+input[type="number"] {
+    width: calc(100% - 20px); /* Ширина 100% с учетом отступов */
+    padding: 10px; /* Отступ внутри поля ввода */
+    border: 1px solid #ccc; /* Граница */
+    border-radius: 5px; /* Скругление углов поля ввода */
+    margin-top: 5px; /* Отступ сверху */
+}
+
+.donate-button {
+    text-align: center;
+	padding: 15px;
+    margin: 15px;
+	color: #ffffff;
+	font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(5px);
+    border: 5px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+	transition: background-color 0.3s ease;
+	border-radius: 25px
+}
+
+.donate-button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
